@@ -1,0 +1,25 @@
+{
+    "average_precision": 0.07267406517730744,
+    "roc_auc": 0.6877666282950744,
+    "precision": 0.06043982835966452,
+    "recall": 0.6099901574803149,
+    "f1_score": 0.10998225377107365,
+    "confusion_matrix": [
+        [
+            75507,
+            38537
+        ],
+        [
+            1585,
+            2479
+        ]
+    ],
+    "training_rows": 472432,
+    "testing_rows": 118108,
+    "fraud_cases": 20663,
+    "features": [
+        "amount_usd",
+        "geo_proxy"
+    ],
+    "anomaly_detector": "IsolationForest"
+}

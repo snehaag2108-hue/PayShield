@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Machine Learning artifacts and datasets
+backend/data/train_transaction.csv
+backend/data/test_transaction.csv
+backend/data/train_identity.csv
+backend/data/test_identity.csv
+backend/app/model.joblib
+
+# Node
+node_modules/
+frontend/dist/
+
+# Temporary files
+*.log
+.DS_Store
